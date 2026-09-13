@@ -121,7 +121,7 @@ def fel():
             rows.append("%.1f,%.1f,%.2f" % (x[i], y[j], DG[j, i]))
     dump("107-fel-grid", "\n".join(rows))
     fig, ax = plt.subplots(figsize=(7.8, 5.6))
-    cf = ax.contourf(X, Y, DG, levels=14, cmap="jet_r")
+    cf = ax.contourf(X, Y, DG, levels=14, cmap="viridis_r")
     cs = ax.contour(X, Y, DG, levels=6, colors="white", linewidths=0.6)
     ax.clabel(cs, fmt="%.1f", fontsize=7)
     ax.scatter([1.25, -1.45], [0.5, -0.5], marker="*", s=190, c="white",

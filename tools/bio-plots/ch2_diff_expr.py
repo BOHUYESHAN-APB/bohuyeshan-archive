@@ -6,6 +6,7 @@ from matplotlib.patches import Circle
 from scipy import stats
 
 from common import save, dump, csv_cols, num, CAT, UP, DOWN, NS
+import nature_style as ns
 
 rng = np.random.default_rng(42)
 
@@ -115,7 +116,7 @@ def heatmap():
     for i in range(M.shape[0]):
         for j in range(M.shape[1]):
             ax.text(j, i, "%.1f" % M[i, j], ha="center", va="center",
-                    fontsize=7.5, color="#333333")
+                    fontsize=7.5, color=ns.cell_text_color(plt.cm.YlGnBu, -2, 2, M[i, j]))
     ax.set_title("Expression heatmap (row z-score)")
     cb = fig.colorbar(im, ax=ax, shrink=0.75)
     cb.set_label("row z-score of TPM")

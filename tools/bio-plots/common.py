@@ -2,9 +2,10 @@
 """Shared style + I/O helpers for the bioinf plot gallery.
 
 Every figure:
-  - English labels (publication convention), DejaVu Sans (bundled, no font install)
+  - English labels (publication convention), Nature-style rcParams via
+    nature_style.py (journal-density text, Okabe-Ito palette, no grid),
+    PNG 300 dpi into source/img/bio-plots/
   - "Simulated data" watermark bottom-right
-  - PNG 200 dpi into source/img/bio-plots/
 Every dataset:
   - defined as a verbatim CSV string here in the script and echoed to stdout by
     dump(), so the article can quote it exactly as it appears
@@ -17,33 +18,17 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+import nature_style as ns
+
 REPO = Path(os.environ.get("BIO_PLOTS_REPO", "/mnt/g/CODE/BOHUYESHAN-APB.github.io")).resolve()
 OUT = (REPO / "source" / "img" / "bio-plots").resolve()
 OUT.mkdir(parents=True, exist_ok=True)
 
-plt.rcParams.update({
-    "figure.dpi": 110,
-    "savefig.dpi": 200,
-    "savefig.directory": str(OUT),
-    "font.family": "DejaVu Sans",
-    "font.size": 11,
-    "axes.titlesize": 12.5,
-    "axes.titlepad": 8,
-    "axes.labelsize": 11.5,
-    "axes.spines.top": False,
-    "axes.spines.right": False,
-    "axes.grid": True,
-    "grid.alpha": 0.25,
-    "grid.linewidth": 0.6,
-    "legend.frameon": False,
-    "legend.fontsize": 9.5,
-    "figure.facecolor": "white",
-    "axes.unicode_minus": False,
-})
+# Nature-style rcParams (see nature_style.py for the spec sources).
+ns.apply()
 
-CAT = ["#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B3",
-       "#937860", "#DA8BC3", "#8C8C8C", "#CCB974", "#64B5CD"]
-UP, DOWN, NS = "#C0392B", "#2471A3", "#B0B0B0"
+CAT = list(ns.OKABE)
+UP, DOWN, NS = "#D55E00", "#0072B2", "#B0B0B0"
 
 
 def _safe_name(name, ext):
@@ -63,10 +48,12 @@ def save(fig, name, watermark=True, mark=None):
 
     Default stamp is "Simulated data"; real-data figures pass their own
     mark (e.g. mark="Real structure data: PDB 6A15") so the figure itself
-    states its provenance.
+    states its provenance. Before export, nature_style.finish() rescales
+    text to journal density and stamps panel letters on multi-panel figs.
     """
     text = mark if mark is not None else (
         "Simulated data, for teaching only" if watermark else None)
+    ns.finish(fig)
     if text:
         fig.text(0.995, 0.003, text,
                  ha="right", va="bottom", fontsize=8, color="#9AA0A6", style="italic")
