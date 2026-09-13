@@ -118,15 +118,15 @@ aside: false
 <span class="r-ver-card-cta">在线查看 / 打印 →</span>
 </a>
 <a class="r-ver-card" style="--c:#1d4ed8;" href="/HTML/resume-tech.html" target="_blank">
-<span class="r-ver-tag">生信 / AI 工程岗</span>
-<span class="r-ver-card-title">生信与 AI 工程岗位 · A4 双页</span>
-<span class="r-ver-card-desc">生物信息学分析 · AI 训练部署 · Agent 与 SDK 工程 · 科研工程交付 · 自适应预览 + 矢量打印</span>
+<span class="r-ver-tag">AI 应用 / 交叉岗</span>
+<span class="r-ver-card-title">AI 应用与交叉岗位 · A4 双页</span>
+<span class="r-ver-card-desc">AI Agent 编排 · 模型训练部署 · 生物领域交叉（AIDD / 智慧农业）· 科研工程交付 · 自适应预览 + 矢量打印</span>
 <span class="r-ver-card-cta">在线查看 / 打印 →</span>
 </a>
 <a class="r-ver-card" style="--c:#7c3aed;" href="/HTML/resume-full.html" target="_blank">
 <span class="r-ver-tag">通用投递版</span>
 <span class="r-ver-card-title">生物 / 制药 / 检测类通用 · A4 双页</span>
-<span class="r-ver-card-desc">分子实验、微生物检测与数据分析均衡呈现，意向覆盖分析技术员 / QC / 实验室技术员 / 科研助理 · 自适应预览 + 矢量打印</span>
+<span class="r-ver-card-desc">分子实验、微生物检测与数据分析均衡呈现，意向覆盖分析技术员 / QC / 技术销售 / 实验室技术员 / 科研助理 · 自适应预览 + 矢量打印</span>
 <span class="r-ver-card-cta">在线查看 / 打印 →</span>
 </a>
 <a class="r-ver-card" style="--c:#b45309; grid-column:1 / -1; flex-direction:row; align-items:center; gap:0.9rem; flex-wrap:wrap;" href="/resume/skills/">
