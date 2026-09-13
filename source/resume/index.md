@@ -97,14 +97,12 @@ aside: false
 </style>
 <div class="resume-page">
 <div class="r-hero">
-<h1>BoHuYeShan (韩涛)</h1>
+<h1>韩涛 (Tao Han)</h1>
 <div class="r-subtitle">生物技术 · 分子生物学实验与微生物检测 · 生物信息学分析与工程实践</div>
 <div class="r-contact">
 <a href="https://github.com/BOHUYESHAN-APB">GitHub</a>
 <a href="https://github.com/Linxira-OS">Linxira-OS (开源组织)</a>
-<a href="https://github.com/BoHuYeShan">GitHub (个人)</a>
 <a href="https://bohuyeshan.top">博客</a>
-<a href="https://openi.pcl.ac.cn/bhys">OpenI</a>
 <a href="https://orcid.org/0009-0002-8426-0610">ORCID</a>
 <span>bohuyeshan@163.com / bohuyeshan@gmail.com</span>
 </div>
@@ -154,7 +152,7 @@ aside: false
 <div class="r-name">云南农业大学 · 生物技术</div>
 <div class="r-meta">本科在读 · 2027届 · 2027.06 毕业</div>
 </div>
-<div class="r-exp-detail">当前研究兴趣：<span class="r-hl">微生物检测 AI</span>、<span class="r-hl">功能基因组与生物信息分析</span>的交叉方向；主导与参与的经历详见下方各板块，全部可在 GitHub 与 OpenI 追溯。</div>
+<div class="r-exp-detail">当前研究兴趣：<span class="r-hl">微生物检测 AI</span>、<span class="r-hl">功能基因组与生物信息分析</span>的交叉方向；主导与参与的经历详见下方各板块，全部可在 GitHub 追溯。</div>
 </div>
 </div>
 <div class="r-section">
@@ -183,7 +181,7 @@ aside: false
 <div class="r-grid-3">
 <div class="r-chart-card">
 <h4>树莓派 5 边缘推理延迟 <span class="r-chart-badge">1.83× 提速</span></h4>
-<div class="r-chart-sub">Buckwheat-seed-quality · 20 图同机实测（CPU 推理，毫秒/图）</div>
+<div class="r-chart-sub">Buckwheat-seed-quality · 树莓派 5 同机实测（CPU 推理，毫秒/图）</div>
 <svg viewBox="0 0 340 118" role="img" aria-label="树莓派5边缘推理延迟对比：ONNX Runtime 561毫秒，NCNN 307毫秒">
 <line x1="100" y1="16" x2="320" y2="16" stroke="#e2e8f0" stroke-width="1"/>
 <text x="92" y="45" text-anchor="end" font-size="11" fill="#475569">ONNX Runtime</text>
@@ -210,7 +208,7 @@ aside: false
 </svg>
 </div>
 <div class="r-chart-card">
-<h4>Linxira 开源生态规模 <span class="r-chart-badge">26 仓库</span></h4>
+<h4>Linxira 开源生态规模 <span class="r-chart-badge">37 仓库</span></h4>
 <div class="r-chart-sub">Linxira-OS 组织 · 自研交付物统计（项）</div>
 <svg viewBox="0 0 340 146" role="img" aria-label="Linxira开源生态规模：分析能力112、双语文档108、agent skills 35、开源仓库26、签名工具17">
 <text x="110" y="26" text-anchor="end" font-size="11" fill="#475569">分析能力</text>
@@ -229,7 +227,7 @@ aside: false
 <rect class="bar d4" x="118" y="118" width="30" height="16" rx="4" fill="#93c5fd"/>
 <text x="156" y="130" font-size="11" fill="#1e3a8a" font-weight="700">17</text>
 </svg>
-<div class="r-chart-foot">另：617 个技能指令包按需索引 · 19 个内置 Agent 定义 · 15+ 模型提供商接入（Zeta）</div>
+<div class="r-chart-foot">另：617 个生态生信技能按需索引 · 19 个内置 Agent 定义 · 15+ 模型提供商接入（Zeta）</div>
 </div>
 </div>
 </div>
@@ -293,7 +291,7 @@ aside: false
 <div class="r-grid-3">
 <div class="r-skill-card">
 <h4>AI 训练与模型部署</h4>
-<div class="r-skill-copy">围绕 PP-YOLOE+、PP-YOLO 和 YOLOv5/v8 开展训练、微调、ONNX 导出与边缘推理；完成树莓派 5 NCNN/ONNX 实测对比与菌落检测延迟优化；基于华为昇腾 NPU + MindSpore 完成开源 LLM 训练/微调任务跑通，训练任务、代码与模型记录公开于 OpenI，完整评测报告整理中。</div>
+<div class="r-skill-copy">围绕 PP-YOLOE+、PP-YOLO 和 YOLOv5/v8 开展训练、微调、ONNX 导出与边缘推理；完成树莓派 5 NCNN/ONNX 同机对比与菌落检测延迟优化；基于华为昇腾 NPU + MindSpore 完成开源 LLM 训练/微调任务跑通，评测整理中。</div>
 <div class="r-skill-tags">
 <span class="r-skill-tag">PP-YOLOE+</span>
 <span class="r-skill-tag">YOLOv5/v8</span>
@@ -330,7 +328,7 @@ aside: false
 </div>
 <div class="r-skill-card">
 <h4>系统与工程</h4>
-<div class="r-skill-copy">日常以 Linux/Git/Docker 交付。发起 <strong>Linxira OS</strong> 科研工作站发行版：KDE Plasma 桌面直接基于 Arch 官方仓库构建，双内核（linux + linux-lts）为滚动更新兜底，Timeshift 快照 + grub-btrfs 回滚，自有签名密钥的 [linxira] 仓库发布 17 个自研工具，93 款审核软件目录；Podman/Distrobox/Apptainer 容器化科研复现开箱即用，无头模式一键释放算力。借助 AI 编程辅助探索 Rust/C++ 热点迁移（原型验证阶段）。</div>
+<div class="r-skill-copy">日常以 Linux/Git/Docker 交付。发起 <strong>Linxira OS</strong> 科研工作站发行版：KDE Plasma 桌面直接基于 Arch 官方仓库构建，Timeshift 快照 + grub-btrfs 回滚，自有签名密钥的 [linxira] 仓库发布 17 个自研工具，93 款审核软件目录；Podman/Distrobox/Apptainer 容器化科研复现开箱即用，无头模式一键释放算力。<strong>已发布 2026.08.14 实验性正式版 ISO（4.79 GB，SHA256 校验）</strong>，完整离线可安装。</div>
 <div class="r-skill-tags">
 <span class="r-skill-tag">Arch Linux</span>
 <span class="r-skill-tag">KDE Plasma</span>
@@ -425,7 +423,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-section">
 <div class="r-section-title">📦 开源项目精选</div>
 <div class="r-link-note" style="margin-bottom:1.5rem;">
-<strong style="color:#1e3a8a;">项目主线：</strong> 围绕 Linxira 开源组织构建科研基础设施生态——主导开发 <strong>Linxira Bio SDK</strong>（本地优先生信平台）与 <strong>Linxira Zeta</strong>（终端编码代理），发起在研的 <strong>Linxira OS</strong> 科研工作站发行版；同时维护 OpenCode 科研编排插件。组织下共 26 个开源仓库，三个主线项目均有独立官网（见各卡片链接）。
+<strong style="color:#1e3a8a;">项目主线：</strong> 围绕 Linxira 开源组织构建科研基础设施生态——主导开发 <strong>Linxira Bio SDK</strong>（本地优先生信平台）与 <strong>Linxira Zeta</strong>（终端编码代理），发起的 <strong>Linxira OS</strong> 科研工作站发行版已发布实验性正式版 ISO；同时维护 OpenCode 科研编排插件。组织下共 37 个自建仓库（组件配置与工具包均自行维护，非上游发行版分支），三个主线项目均有独立官网（见各卡片链接）。
 <br><br>
 <strong style="color:#1e3a8a;">前沿评估：</strong> 跟踪 Proto、PBCNet2.0 等 AI for Science 工具，形成 MCP/Agent 接入评估与技术笔记，不将第三方基准视为自身系统性能。
 </div>
@@ -444,25 +442,19 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 </div>
 <div class="r-project-card">
 <h4><a href="https://github.com/Linxira-OS/linxira-os">Linxira OS</a></h4>
-<div class="r-desc"><strong>面向理学的 Linux 发行版（在研）</strong>：KDE Plasma 桌面直接基于 Arch 官方仓库构建；双内核（linux + linux-lts）兜底滚动更新，Timeshift 快照 + grub-btrfs 回滚；[linxira] 签名仓库以自有密钥发布 17 个自研工具（Welcome → Config Hub 全链路）；93 款审核软件目录勾选即装；Podman / Distrobox / Apptainer 容器化科研复现与无头模式；中文（Fcitx5）开箱即用。ISO 构建与兼容性验证推进中。</div>
+<div class="r-desc"><strong>面向科研工作站的 Linux 发行版（已发布实验性正式版）</strong>：KDE Plasma 桌面直接基于 Arch 官方仓库构建；Timeshift 快照 + grub-btrfs 回滚；[linxira] 签名仓库以自有密钥发布 17 个自研工具（Welcome → Config Hub 全链路）；93 款审核软件目录勾选即装；Podman / Distrobox / Apptainer 容器化科研复现与无头模式；中文（Fcitx5）开箱即用。已发布 2026.08.14 实验性正式版 ISO（4.79 GB，SHA256 校验），完整离线可安装。</div>
 <div class="r-links"><a href="https://github.com/Linxira-OS/linxira-os" target="_blank">GitHub</a><a href="https://linxira-os.github.io/zh/" target="_blank">官网 ↗</a></div>
 <span class="r-lang">Arch · Shell · Python</span>
 </div>
 <div class="r-project-card">
 <h4><a href="https://github.com/BOHUYESHAN-APB/openagent-labforge-bio">openagent-labforge-bio</a> <span class="r-badge">主线</span></h4>
-<div class="r-desc">OpenCode 科研编排插件：权限分层、计划执行、续跑/审查、会话检查点与 MCP；按需索引 617 个集成技能指令包。</div>
+<div class="r-desc">OpenCode 科研编排插件：权限分层、计划执行、续跑/审查、会话检查点与 MCP；19 个自研 Agent 定义，按需索引 OpenCode 生态 617 个生信技能（88 类）。</div>
 <div class="r-links"><a href="https://github.com/BOHUYESHAN-APB/openagent-labforge-bio" target="_blank">GitHub</a></div>
 <span class="r-lang">TypeScript / Bun</span>
 </div>
 <div class="r-project-card">
-<h4><a href="https://github.com/Linxira-OS/extendai-lab-Studio">extendai-lab-Studio</a></h4>
-<div class="r-desc">科研控制面原型：OpenCode 生命周期桥、安全检查、本地认证与受限规模统计。</div>
-<div class="r-links"><a href="https://github.com/Linxira-OS/extendai-lab-Studio" target="_blank">GitHub</a></div>
-<span class="r-lang">Python / TypeScript</span>
-</div>
-<div class="r-project-card">
 <h4><a href="https://github.com/BOHUYESHAN-APB/Buckwheat-seed-quality">Buckwheat-seed-quality</a></h4>
-<div class="r-desc">PP-YOLOE+ 荞麦籽粒检测与桌面/批量推理；树莓派 5 的 20 图同机测试中，NCNN CPU 延迟约为 ONNX Runtime CPU 的 1/1.83。</div>
+<div class="r-desc">PP-YOLOE+ 荞麦籽粒检测与桌面/批量推理；树莓派 5 同机部署对比中，NCNN CPU 延迟约为 ONNX Runtime CPU 的 1/1.83。</div>
 <div class="r-links"><a href="https://github.com/BOHUYESHAN-APB/Buckwheat-seed-quality" target="_blank">GitHub</a></div>
 <span class="r-lang">Python / Kotlin</span>
 </div>
@@ -489,7 +481,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-name">异构硬件迁移</div>
 </div>
 <div class="r-exp-detail">
-使用 CUDA/Paddle/PyTorch 开展实验；搭建 Ascend/OpenI/MindSpore 数据准备、参数解析与 dry-run 调度脚手架，完整训练指标待补齐。
+使用 CUDA/Paddle/PyTorch 开展实验；搭建昇腾 NPU / MindSpore 数据准备、参数解析与 dry-run 调度脚手架。
 </div>
 </div>
 <div class="r-exp-item">
@@ -497,7 +489,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-name">开源大语言模型训练（华为昇腾）</div>
 </div>
 <div class="r-exp-detail">
-基于昇腾 NPU 与 MindSpore 栈完成开源 LLM 训练/微调任务跑通；训练任务、代码与模型记录公开于 <a href="https://openi.pcl.ac.cn/bhys" style="color:#2563eb;">OpenI 启智社区</a>（可查验），完整评测报告整理中。
+基于昇腾 NPU 与 MindSpore 栈完成开源 LLM 训练/微调任务跑通，评测整理中。
 </div>
 </div>
 <div class="r-exp-item">
@@ -536,22 +528,20 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-stat"><div class="r-num">24</div><div class="r-label">DWF4 分析样本</div></div>
 <div class="r-stat"><div class="r-num">112</div><div class="r-label">Bio SDK 分析能力</div></div>
 <div class="r-stat"><div class="r-num">35</div><div class="r-label">Bio SDK agent skills</div></div>
-<div class="r-stat"><div class="r-num">617</div><div class="r-label">集成索引的技能指令包</div></div>
+<div class="r-stat"><div class="r-num">617</div><div class="r-label">生态生信技能索引</div></div>
 <div class="r-stat"><div class="r-num">17</div><div class="r-label">Linxira 自研签名工具</div></div>
-<div class="r-stat"><div class="r-num">26</div><div class="r-label">Linxira-OS 开源仓库</div></div>
+<div class="r-stat"><div class="r-num">37</div><div class="r-label">Linxira-OS 开源仓库</div></div>
 </div>
 </div>
 <div class="r-section">
 <div class="r-section-title">🤝 组织参与</div>
 <ul class="r-org-list">
-<li class="r-org-item"><strong>Linxira OS</strong> — 发起并推进面向理学的 Linux 发行版（Arch 基线、双内核、[linxira] 签名仓库、容器化科研复现）；主导开发 Bio SDK 与 Zeta，组织下 26 个开源仓库 · <a href="https://linxira-os.github.io/zh/" target="_blank">官网</a></li>
-<li class="r-org-item"><strong>YeShanBoYun Studio</strong> — 组织成员，参与 NeuroPlex-Nexus 等项目</li>
+<li class="r-org-item"><strong>Linxira OS</strong> — 发起面向科研工作站的 Linux 发行版，已发布实验性正式版 ISO（Arch 官方仓库独立构建、17 个自研签名工具、容器化科研复现）；主导开发 Bio SDK 与 Zeta，组织下 37 个开源仓库 · <a href="https://linxira-os.github.io/zh/" target="_blank">官网</a></li>
 <li class="r-org-item"><strong>openagent-labforge-bio</strong> — 主线项目，持续开发维护</li>
-<li class="r-org-item"><strong>OpenI 启智社区</strong> — 公开保存 NPU/GPU 训练任务、代码与模型记录（含开源 LLM 训练）</li>
 </ul>
 </div>
 <div class="r-section">
-<div class="r-section-title">🏅 竞赛项目经历</div>
+<div class="r-section-title">🏅 竞赛与项目立项</div>
 <div class="r-exp-item">
 <div class="r-exp-head">
 <div class="r-name">2025 国际大学生创新创业大赛</div>
@@ -560,7 +550,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 </div>
 <div class="r-exp-item">
 <div class="r-exp-head">
-<div class="r-name">2025 "挑战杯"全国竞赛</div>
+<div class="r-name">2025 "挑战杯"</div>
 <div class="r-meta">人工智能赛道负责人 · 省级立项</div>
 </div>
 </div>
@@ -605,7 +595,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-name">微生物小目标检测算法改进</div>
 <div class="r-meta">在研 · 拟整理为预印本</div>
 </div>
-<div class="r-exp-detail">围绕微生物菌落小目标检测，持续比较 <span class="r-hl">PP-YOLO</span> 系列训练与学习率策略；已搭建 Ascend/OpenI/MindSpore 迁移脚手架，完整训练与评测结果待补齐。</div>
+<div class="r-exp-detail">围绕微生物菌落小目标检测，持续比较 <span class="r-hl">PP-YOLO</span> 系列训练与学习率策略；已搭建昇腾 NPU / MindSpore 迁移脚手架，评测整理中。</div>
 </div>
 <div class="r-exp-item">
 <div class="r-exp-head">
@@ -677,9 +667,8 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-link-group">
 <h4>GitHub</h4>
 <ul>
-<li><a href="https://github.com/BOHUYESHAN-APB" target="_blank">BOHUYESHAN-APB（主账号）</a></li>
-<li><a href="https://github.com/Linxira-OS" target="_blank">Linxira-OS（开源组织 · 26 仓库）</a></li>
-<li><a href="https://github.com/BoHuYeShan" target="_blank">BoHuYeShan（个人）</a></li>
+<li><a href="https://github.com/BOHUYESHAN-APB" target="_blank">BOHUYESHAN-APB（主账号 · 自建项目见下）</a></li>
+<li><a href="https://github.com/Linxira-OS" target="_blank">Linxira-OS（开源组织 · 37 仓库）</a></li>
 </ul>
 </div>
 <div class="r-link-group">
@@ -694,8 +683,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <h4>主要仓库 · Linxira-OS</h4>
 <ul>
 <li><a href="https://github.com/Linxira-OS/linxira-bio-sdk" target="_blank">linxira-bio-sdk</a> · <a href="https://github.com/Linxira-OS/linxira-zeta" target="_blank">linxira-zeta</a></li>
-<li><a href="https://github.com/Linxira-OS/linxira-os" target="_blank">linxira-os</a> · <a href="https://github.com/Linxira-OS/extendai-lab-Studio" target="_blank">extendai-lab-Studio</a></li>
-<li><a href="https://github.com/Linxira-OS/linxira-pulse" target="_blank">linxira-pulse</a>（系统级 AI 助手）</li>
+<li><a href="https://github.com/Linxira-OS/linxira-os" target="_blank">linxira-os</a> · <a href="https://github.com/Linxira-OS/linxira-packages" target="_blank">linxira-packages</a></li>
 <li><a href="https://github.com/Linxira-OS/linxira-skills" target="_blank">linxira-skills</a> · <a href="https://github.com/Linxira-OS/linxira-catalog" target="_blank">linxira-catalog</a></li>
 <li><a href="https://github.com/Linxira-OS/linxira-welcome" target="_blank">linxira-welcome</a> · <a href="https://github.com/Linxira-OS/linxira-config-hub" target="_blank">linxira-config-hub</a></li>
 </ul>
@@ -714,7 +702,6 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <ul>
 <li><a href="https://doi.org/10.3390/ijms27135740" target="_blank">IJMS 论文（DOI: 10.3390/ijms27135740）</a></li>
 <li><a href="https://orcid.org/0009-0002-8426-0610" target="_blank">ORCID 主页</a></li>
-<li><a href="https://openi.pcl.ac.cn/bhys" target="_blank">OpenI 启智社区</a></li>
 </ul>
 </div>
 <div class="r-link-group r-w3">
