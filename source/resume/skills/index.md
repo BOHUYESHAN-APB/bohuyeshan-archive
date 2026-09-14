@@ -3,7 +3,7 @@ title: 技能清单
 date: 2026-09-09 00:00:00
 type: resume
 aside: false
-description: 韩涛（BoHuYeShan）完整技能清单：分子生物学实验、微生物培养与检测、生物信息学分析、AI 训练与部署、Agent 与软件工程，每项附证据链接。
+description: 韩涛（Tao Han）完整技能清单：分子生物学实验、微生物培养与检测、生物信息学分析、AI 训练与部署、Agent 与软件工程，每项附证据链接。
 ---
 
 <style>
@@ -53,7 +53,7 @@ description: 韩涛（BoHuYeShan）完整技能清单：分子生物学实验、
 <div class="resume-page">
 <div class="r-hero">
 <h1>技能清单</h1>
-<div class="r-subtitle">韩涛 (BoHuYeShan) · 完整技能索引 · 分子实验 / 微生物检测 / 生信 / AI 与软件工程</div>
+<div class="r-subtitle">韩涛 (Tao Han) · 完整技能索引 · 分子实验 / 微生物检测 / 生信 / AI 与软件工程</div>
 <div class="r-contact">
 <a href="/resume/">← 返回简历总览</a>
 <a href="https://github.com/BOHUYESHAN-APB">GitHub</a>
