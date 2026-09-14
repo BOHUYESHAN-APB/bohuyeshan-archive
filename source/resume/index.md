@@ -143,7 +143,7 @@ aside: false
 <a class="r-ver-card" style="--c:#7c3aed;" href="/HTML/resume-full.html" target="_blank">
 <span class="r-ver-tag">通用投递版</span>
 <span class="r-ver-card-title">生物 / 制药 / 检测类通用 · A4 双页</span>
-<span class="r-ver-card-desc">分子实验、微生物检测与数据分析均衡呈现，意向覆盖分析技术员 / QC / 技术销售 / 实验室技术员 / 科研助理 · 自适应预览 + 矢量打印</span>
+<span class="r-ver-card-desc">分子实验、微生物检测与数据分析均衡呈现，意向覆盖分析技术员 / QC / 实验室技术员 / 科研助理 · 自适应预览 + 矢量打印</span>
 <span class="r-ver-card-cta">在线查看 / 打印 →</span>
 </a>
 <a class="r-ver-card" style="--c:#b45309; grid-column:1 / -1; flex-direction:row; align-items:center; gap:0.9rem; flex-wrap:wrap;" href="/resume/skills/">
