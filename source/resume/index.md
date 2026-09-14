@@ -124,7 +124,7 @@ aside: false
 <span>bohuyeshan@163.com / bohuyeshan@gmail.com</span>
 </div>
 </div>
-<div class="r-link-note" style="margin-top:1.5rem;">生物技术本科，三个课题均从实验设计与 SOP 执行做起，覆盖微生物培养鉴定、植物分子实验与组学数据分析；实验记录规范化、可追溯，产物能直接衔接下游统计与自动化报告；具备把重复检测环节沉淀为工具的经验，发明专利第一发明人。期望在规范化团队中长期发展。</div>
+<div class="r-link-note" style="margin-top:1.5rem;"><strong>自我定位：懂技术、能改进技术的技术使用者与开发者</strong>——把成熟方法用进真实场景、把重复劳动沉淀为工具与自动化，不做脱离落地的顶层研究。生物技术本科，三个课题均从实验设计与 SOP 执行做起，覆盖微生物培养鉴定、植物分子实验与组学数据分析；实验记录规范化、可追溯，产物能直接衔接下游统计与自动化报告；具备把重复检测环节沉淀为工具的经验，发明专利第一发明人。期望在规范化团队中长期发展。</div>
 <div class="r-section">
 <div class="r-section-title">🗂️ 简历版本</div>
 <div class="r-ver-grid">
