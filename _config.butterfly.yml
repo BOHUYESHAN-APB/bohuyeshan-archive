@@ -32,7 +32,6 @@ code_blocks:
 social:
   fab fa-github-square: https://github.com/BOHUYESHAN-APB || Github博客仓库 || '#525252'
   fab fa-github: https://github.com/BoHuYeShan || Github个人仓库 || '#24292e'
-  fab fa-bilibili: https://space.bilibili.com/316318805 || bilibili个人主页 || '#FB7299'
 
 # ===== 图片 =====
 favicon: /img/favicon.ico
