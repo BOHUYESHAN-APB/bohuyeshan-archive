@@ -12,8 +12,10 @@ language: zh-CN
 timezone: ''
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://bohuyeshan.top
+## Site is mounted under /old/ on bohuyeshan.top; the Astro main site composes
+## this repo's build output into public/old at deploy time.
+url: https://bohuyeshan.top/old/
+root: /old/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -113,5 +115,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/BOHUYESHAN-APB/BOHUYESHAN-APB.github.io.git
+  repo: https://github.com/BOHUYESHAN-APB/bohuyeshan-archive.git
   branch: main
+
+# Markdown rendering under the /old/ root: rewrite absolute links/images
+# (/img/..., /2026/...) with the root prefix so the archive is self-consistent.
+marked:
+  prependRoot: true
