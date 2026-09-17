@@ -142,12 +142,13 @@
   .self-eval { font-size: 7.8pt; color: #4a5468; line-height: 1.65; background: #fafbff; border-left: 1mm solid #1e3a8a; border-radius: 0 1.2mm 1.2mm 0; padding: 2.4mm 3mm; }
   .self-eval b { color: #1e3a8a; }
 
-  /* 第二页紧凑化：内容曾超出一行被裁切 */
+  /* 内容防裁切：压缩段距 + 内容缩放，给纸底留安全余量 */
+  .a4-page > .section { zoom: 0.97; }
   .a4-page + .a4-page > .section { zoom: 0.95; }
-  .a4-page + .a4-page section { margin-bottom: 1mm; }
-  .a4-page + .a4-page .job-block { padding: 1.6mm 3mm; }
-  .a4-page + .a4-page .hero { margin-bottom: 2mm !important; }
-  .a4-page + .a4-page h2 { margin-bottom: 1.5mm !important; }
+  .a4-page section { margin-bottom: 1mm; }
+  .a4-page .job-block { padding: 1.6mm 3mm; }
+  .a4-page .hero { margin-bottom: 2mm !important; }
+  .a4-page h2 { margin-bottom: 1.5mm !important; }
   @media print {
     @page { size: A4 portrait; margin: 0; }
     html, body { width: 210mm; background: #fff; }

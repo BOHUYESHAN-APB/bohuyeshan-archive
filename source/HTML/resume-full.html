@@ -207,6 +207,13 @@
 
   .page-footer { position: absolute; left: 8mm; right: 8mm; bottom: 3mm; padding-top: 1.5mm; border-top: 0.2mm solid #e5e7eb; font-size: 7.2pt; color: #9ca3af; display: flex; justify-content: space-between; }
 
+  /* 内容防裁切：压缩段距 + 内容缩放，给纸底留安全余量 */
+  .a4-page > .section { zoom: 0.97; }
+  .a4-page + .a4-page > .section { zoom: 0.95; }
+  .a4-page section { margin-bottom: 1mm; }
+  .a4-page .job-block { padding: 1.6mm 3mm; }
+  .a4-page .hero { margin-bottom: 2mm !important; }
+  .a4-page h2 { margin-bottom: 1.5mm !important; }
   @media print {
     @page { size: A4 portrait; margin: 0; }
     html, body { width: 210mm; background: #fff; }

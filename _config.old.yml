@@ -1,0 +1,8 @@
+# Archive build override: mounts the old Hexo site under /old/ on bohuyeshan.top.
+# Used with: npx hexo generate --config _config.yml,_config.old.yml
+# prependRoot makes the renderer rewrite absolute markdown links/images
+# (/img/..., /2026/...) with the /old/ root so the archive is self-consistent.
+url: "https://bohuyeshan.top/old/"
+root: /old/
+marked:
+  prependRoot: true
