@@ -175,7 +175,7 @@ aside: false
 <div class="r-name">云南农业大学 · 生物技术</div>
 <div class="r-meta">本科在读 · 2027届 · 2027.06 毕业</div>
 </div>
-<div class="r-exp-detail">当前研究兴趣：<span class="r-hl">微生物检测 AI</span>、<span class="r-hl">功能基因组与生物信息分析</span>的交叉方向；主导与参与的经历详见下方各板块，全部可在 GitHub 追溯。</div>
+<div class="r-exp-detail">当前研究兴趣：<span class="r-hl">微生物检测 AI</span>、<span class="r-hl">功能基因组与生物信息分析</span>的交叉方向；各项经历详见下方各板块，全部可在 GitHub 追溯。</div>
 </div>
 </div>
 <div class="r-section">
@@ -446,19 +446,19 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-section">
 <div class="r-section-title">📦 开源项目精选</div>
 <div class="r-link-note" style="margin-bottom:1.5rem;">
-<strong style="color:#1e3a8a;">项目主线：</strong> 围绕 Linxira 开源组织构建科研基础设施生态——主导开发 <strong>Linxira Bio SDK</strong>（本地优先生信平台）与 <strong>Linxira Zeta</strong>（终端编码代理），发起的 <strong>Linxira OS</strong> 科研工作站发行版已发布实验性正式版 ISO；同时维护 OpenCode 科研编排插件。组织下共 37 个自建仓库（组件配置与工具包均自行维护，非上游发行版分支），三个主线项目均有独立官网（见各卡片链接）。
+<strong style="color:#1e3a8a;">项目主线：</strong> 围绕 Linxira 开源组织构建科研基础设施生态——开发 <strong>Linxira Bio SDK</strong>（本地优先生信平台）与 <strong>Linxira Zeta</strong>（终端编码代理），发起的 <strong>Linxira OS</strong> 科研工作站发行版已发布实验性正式版 ISO；同时维护 OpenCode 科研编排插件。组织下共 37 个自建仓库（组件配置与工具包均自行维护，非上游发行版分支），三个主线项目均有独立官网（见各卡片链接）。
 <br><br>
 <strong style="color:#1e3a8a;">前沿评估：</strong> 跟踪 Proto、PBCNet2.0 等 AI for Science 工具，形成 MCP/Agent 接入评估与技术笔记，不将第三方基准视为自身系统性能。
 </div>
 <div class="r-grid-3 r-project-grid">
 <div class="r-project-card" style="border-color:#bfdbfe; background:#eff6ff;">
-<h4><a href="https://github.com/Linxira-OS/linxira-bio-sdk">Linxira Bio SDK</a> <span class="r-badge">主导开发</span></h4>
+<h4><a href="https://github.com/Linxira-OS/linxira-bio-sdk">Linxira Bio SDK</a></h4>
 <div class="r-desc"><strong>本地优先、开箱即用的生信分析平台</strong>：Rust 原生引擎 + 原生 GUI/CLI + agent skills；支持 FASTA / FASTQ / GFF / VCF / BED / CSV / PDB 导入，覆盖质控 → 修剪 → 比对 → 变异 → 富集 → 报告全流程；表格、SVG 图表与交互式结构查看器，可导出 CSV/TSV/JSON/XLSX 及 HTML/PDF 论文级报告；112 项版本化分析能力、35 个 agent skills、中英双语文档；Windows / Debian / Arch 三平台，AGPL-3.0 开源，CI 含 JSON Schema 验证。</div>
 <div class="r-links"><a href="https://github.com/Linxira-OS/linxira-bio-sdk" target="_blank">GitHub</a><a href="https://linxira-os.github.io/bio-sdk/zh/" target="_blank">官网 ↗</a></div>
 <span class="r-lang">Rust · Python · R · Java</span>
 </div>
 <div class="r-project-card" style="border-color:#bfdbfe; background:#eff6ff;">
-<h4><a href="https://github.com/Linxira-OS/linxira-zeta">Linxira Zeta</a> <span class="r-badge">主导开发</span></h4>
+<h4><a href="https://github.com/Linxira-OS/linxira-zeta">Linxira Zeta</a></h4>
 <div class="r-desc"><strong>终端 AI 编码代理（OMP 兼容发行版）</strong>：原生 Rust 引擎驱动，子代理、计划模式、LSP/DAP、事后记忆与 hashline 编辑；主线同步 OMP 上游并移植 Pi 高级能力；提供交互式 TUI、Print/JSON、RPC、SDK 四种运行模式，Web UI 与 CLI 共享持久会话；支持 15+ 模型提供商，可接入微信 / 飞书 / Telegram bot。</div>
 <div class="r-links"><a href="https://github.com/Linxira-OS/linxira-zeta" target="_blank">GitHub</a><a href="https://linxira-os.github.io/zeta/zh/" target="_blank">官网 ↗</a></div>
 <span class="r-lang">TypeScript · Rust</span>
@@ -559,7 +559,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 <div class="r-section">
 <div class="r-section-title">🤝 组织参与</div>
 <ul class="r-org-list">
-<li class="r-org-item"><strong>Linxira OS</strong> — 发起面向科研工作站的 Linux 发行版，已发布实验性正式版 ISO（Arch 官方仓库独立构建、17 个自研签名工具、容器化科研复现）；主导开发 Bio SDK 与 Zeta，组织下 37 个开源仓库 · <a href="https://linxira-os.github.io/zh/" target="_blank">官网</a></li>
+<li class="r-org-item"><strong>Linxira OS</strong> — 发起面向科研工作站的 Linux 发行版，已发布实验性正式版 ISO（Arch 官方仓库独立构建、17 个自研签名工具、容器化科研复现）；开发 Bio SDK 与 Zeta，组织下 37 个开源仓库 · <a href="https://linxira-os.github.io/zh/" target="_blank">官网</a></li>
 <li class="r-org-item"><strong>openagent-labforge-bio</strong> — 主线项目，持续开发维护</li>
 </ul>
 </div>

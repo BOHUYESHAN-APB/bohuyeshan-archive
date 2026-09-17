@@ -284,7 +284,7 @@ description: 韩涛（Tao Han）完整技能清单：分子生物学实验、微
 <div class="r-grid-3">
 <div class="r-skill-card r-w3">
 <div class="r-skill-head"><h4>语言矩阵</h4><span class="r-level r-lv-ok">掌握</span></div>
-<div class="r-skill-copy"><strong>Rust</strong>：主导 Bio SDK 原生引擎 / CLI / worker / 无 WebView 原生 GUI（Cargo workspace + deny.toml 依赖审计）与 Zeta 原生加速层（文本 / 正则 / grep / diff），AI 辅助编程。<strong>TypeScript / Bun</strong>：Zeta、OpenCode 插件、自定义命令（arktype / typebox / zod 校验）。<strong>Python</strong>：训练推理脚本、检测工具化、workflow 与 CI 校验脚本。<strong>R</strong>：DESeq2 / WGCNA 工作流包。<strong>Shell</strong>：打包与 systemd。<strong>Kotlin / Java</strong>：Android 推理端、Java 插件层。</div>
+<div class="r-skill-copy"><strong>Rust</strong>：开发 Bio SDK 原生引擎 / CLI / worker / 无 WebView 原生 GUI（Cargo workspace + deny.toml 依赖审计）与 Zeta 原生加速层（文本 / 正则 / grep / diff），AI 辅助编程。<strong>TypeScript / Bun</strong>：Zeta、OpenCode 插件、自定义命令（arktype / typebox / zod 校验）。<strong>Python</strong>：训练推理脚本、检测工具化、workflow 与 CI 校验脚本。<strong>R</strong>：DESeq2 / WGCNA 工作流包。<strong>Shell</strong>：打包与 systemd。<strong>Kotlin / Java</strong>：Android 推理端、Java 插件层。</div>
 <div class="r-skill-tags"><span class="r-skill-tag">Rust</span><span class="r-skill-tag">TypeScript / Bun</span><span class="r-skill-tag">Python</span><span class="r-skill-tag">R</span><span class="r-skill-tag">Shell</span><span class="r-skill-tag">Kotlin</span><span class="r-skill-tag">Java</span><span class="r-skill-tag">C++（探索）</span></div>
 </div>
 <div class="r-skill-card r-w3">

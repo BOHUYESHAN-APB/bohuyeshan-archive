@@ -51,7 +51,7 @@ description: 韩涛（Tao Han）简历中每个项目的详情页：做什么、
 
 <div class="p-card">
 <h3><a href="https://github.com/Linxira-OS/linxira-bio-sdk" target="_blank">Linxira Bio SDK</a> · 本地优先生信分析平台</h3>
-<div class="p-tagline">主导开发 · Rust 原生引擎 · AGPL-3.0</div>
+<div class="p-tagline">Rust 原生引擎 · AGPL-3.0</div>
 <div class="p-row"><b class="k">做什么：</b>本地运行、开箱即用的生物信息学分析平台，Rust 原生引擎 + GUI/CLI + agent skills。</div>
 <div class="p-row"><b class="k">解决什么问题：</b>生信分析长期依赖命令行与自配 Python 环境，湿实验老师和学生上手门槛高；云端分析平台要把数据传出去，样本数据不适合。它本地跑、装完就能用。</div>
 <div class="p-row"><b class="k">怎么做的：</b>112 项版本化分析能力覆盖质控 → 修剪 → 比对 → 变异 → 富集 → 报告全流程；支持 FASTA/FASTQ/GFF/VCF/BED/CSV/PDB 导入；论文级 HTML/PDF 报告导出；Windows / Debian / Arch 三平台；CI 含 JSON Schema 验证。</div>
@@ -61,7 +61,7 @@ description: 韩涛（Tao Han）简历中每个项目的详情页：做什么、
 
 <div class="p-card">
 <h3><a href="https://github.com/Linxira-OS/linxira-zeta" target="_blank">Linxira Zeta</a> · 终端 AI 编码代理</h3>
-<div class="p-tagline">主导开发 · OMP 兼容发行版</div>
+<div class="p-tagline">终端 AI 编码代理 · OMP 兼容发行版</div>
 <div class="p-row"><b class="k">做什么：</b>面向终端场景的 AI 编码代理发行版，在开源上游基础上做科研向定制。</div>
 <div class="p-row"><b class="k">解决什么问题：</b>通用 AI 编码代理对国内模型接入支持有限、缺少多端触达；科研场景需要子代理、计划模式、持久会话与 bot 接入的组合能力。</div>
 <div class="p-row"><b class="k">怎么做的：</b>Rust 引擎驱动，子代理、计划模式、LSP/DAP、事后记忆；交互式 TUI、Print/JSON、RPC、SDK 四种运行模式；15+ 模型提供商；可接入微信 / 飞书 / Telegram bot。</div>

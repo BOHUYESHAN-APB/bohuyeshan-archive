@@ -87,7 +87,7 @@
   .cap-card.cap-wide { grid-column: 1 / -1; }
 
   /* ---- Timeline ---- */
-  .tl-item { position: relative; padding: 0 0 2.2mm 5mm; border-left: 0.3mm solid #c9d3e6; margin-left: 1.5mm; }
+  .tl-item { position: relative; padding: 0 0 1.9mm 5mm; border-left: 0.3mm solid #c9d3e6; margin-left: 1.5mm; }
   .tl-item:last-child { padding-bottom: 0; }
   .tl-item::before { content: ''; position: absolute; left: -1.35mm; top: 0.6mm; width: 2.4mm; height: 2.4mm; background: #1e3a8a; border-radius: 50%; border: 0.5mm solid #fff; box-shadow: 0 0 0 0.3mm #1e3a8a; }
   .tl-head { display: flex; justify-content: space-between; align-items: baseline; gap: 2mm; }
@@ -143,10 +143,9 @@
   .self-eval b { color: #1e3a8a; }
 
   /* 第二页紧凑化+缩放（内容曾溢出被裁）；第一页保持原版满排 */
-  .a4-page + .a4-page > .section { zoom: 0.95; }
-  .a4-page + .a4-page section { margin-bottom: 1mm; }
-  .a4-page + .a4-page .job-block { padding: 1.6mm 3mm; }
-  .a4-page + .a4-page .hero { margin-bottom: 2mm !important; }
+  .a4-page + .a4-page > .section { margin-bottom: 6mm; }
+  .a4-page + .a4-page .job-block { padding: 2.4mm 3mm; }
+  .a4-page + .a4-page .hero { margin-bottom: 6mm !important; }
   .a4-page + .a4-page h2 { margin-bottom: 1.5mm !important; }
   @media print {
     @page { size: A4 portrait; margin: 0; }
@@ -239,7 +238,7 @@ function exportPDF() {
       <div class="cap-grid">
         <div class="cap-card">
           <div class="cap-title"><span class="dot"></span>AI Agent 与自动化工程</div>
-          <div class="cap-text">TypeScript/Bun 开发 <b>OpenCode 科研编排插件</b>（权限分层、计划执行、会话检查点、MCP）；主导 Bio SDK（Rust 原生引擎）与 Zeta（终端编码代理）开源主线；独立完成 Arch 发行版构建与 ISO 发布，Linux/Shell/Git/Docker 日常交付。</div>
+          <div class="cap-text">TypeScript/Bun 开发 <b>OpenCode 科研编排插件</b>（权限分层、计划执行、会话检查点、MCP）；开发 Bio SDK（Rust 原生引擎）与 Zeta（终端编码代理）开源主线；独立完成 Arch 发行版构建与 ISO 发布，Linux/Shell/Git/Docker 日常交付。</div>
           <div class="cap-tags"><span class="cap-tag">TypeScript</span><span class="cap-tag">Rust</span><span class="cap-tag">MCP</span><span class="cap-tag">OpenCode</span><span class="cap-tag">Linux/Git/Docker</span></div>
         </div>
         <div class="cap-card">
@@ -273,10 +272,22 @@ function exportPDF() {
       </div>
       <div class="tl-item">
         <div class="tl-head">
-          <div class="tl-name">开源项目 · Linxira Bio SDK 主导开发</div>
+          <div class="tl-name">开源项目 · Linxira Bio SDK</div>
           <div class="tl-meta">2026.07 至今</div>
         </div>
-        <div class="tl-body">设计并实现本地优先生信分析平台：Rust 引擎、112 个分析能力、35 个 agent skills、CI 验证门禁与 AGPL 开源发布。</div>
+        <div class="tl-body">设计并实现本地优先生信分析平台：Rust 引擎、GUI/CLI 双形态、112 个分析能力、35 个 agent skills、CI 验证门禁与 AGPL 开源发布。</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label"><span class="zh">模型训练与部署实践</span><span class="en">MODEL TRAINING</span></div>
+      <div class="tl-item">
+        <div class="tl-head"><div class="tl-name">目标检测训练与边缘推理</div></div>
+        <div class="tl-body">PP-YOLOE+、PP-YOLO、YOLOv5/v8 训练与微调，ONNX 导出及 Android/树莓派推理；比较余弦退火、Restart 与分段式学习率策略，结合训练曲线小样本调参；搭建昇腾 NPU / MindSpore 数据准备与 dry-run 调度脚手架。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-head"><div class="tl-name">开源大语言模型训练（华为昇腾）</div></div>
+        <div class="tl-body">基于昇腾 NPU 与 MindSpore 栈完成开源 LLM 训练/微调任务跑通，训练与评测记录整理中。</div>
       </div>
     </div>
 
@@ -327,18 +338,6 @@ function exportPDF() {
     </div>
 
     <div class="section">
-      <div class="section-label"><span class="zh">模型训练与部署实践</span><span class="en">MODEL TRAINING</span></div>
-      <div class="tl-item">
-        <div class="tl-head"><div class="tl-name">目标检测训练与边缘推理</div></div>
-        <div class="tl-body">PP-YOLOE+、PP-YOLO、YOLOv5/v8 训练与微调，ONNX 导出及 Android/树莓派推理；比较余弦退火、Restart 与分段式学习率策略，结合训练曲线小样本调参；搭建昇腾 NPU / MindSpore 数据准备与 dry-run 调度脚手架。</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-head"><div class="tl-name">开源大语言模型训练（华为昇腾）</div></div>
-        <div class="tl-body">基于昇腾 NPU 与 MindSpore 栈完成开源 LLM 训练/微调任务跑通，训练与评测记录整理中。</div>
-      </div>
-    </div>
-
-    <div class="section">
       <div class="section-label"><span class="zh">在研项目</span><span class="en">ONGOING</span></div>
       <div class="wip-item">
         <div class="wip-head">AI 驱动药物虚拟筛选自动化管线<span class="wip-meta">2026.06 至今 · 前沿方法集成</span></div>
@@ -362,7 +361,7 @@ function exportPDF() {
         </div>
         <div class="mini-col">
           <div class="mini-title">组织参与</div>
-          <div class="mini-item"><b>Linxira-OS 组织</b> · 发起人；主导 Bio SDK 与 Zeta 两条开源主线</div>
+          <div class="mini-item"><b>Linxira-OS 组织</b> · 发起人；开发 Bio SDK 与 Zeta 两条开源主线</div>
           <div class="mini-item"><b>openagent-labforge-bio</b> · 主线维护</div>
         </div>
         <div class="mini-col">
@@ -378,7 +377,7 @@ function exportPDF() {
 
     <div class="section">
       <div class="section-label"><span class="zh">自我评价</span><span class="en">SUMMARY</span></div>
-      <div class="self-eval"><b>自我定位：懂技术、能改进技术的技术使用者与开发者</b>——把成熟方法用进真实场景、把重复劳动沉淀为工具，不做脱离落地的顶层研究。生物技术专业本科在读，能衔接<b>实验执行 → 数据整理 → 生物信息学分析 → 工程化交付</b>的完整链路；已在 IJMS 论文中承担 Software 与 Data curation 贡献，主导 Bio SDK 与 Agent 编排两条开源主线，持续训练与部署视觉模型。开发全程与 AI 结对协作：<b>方法选型、结果判断与质量把关由本人完成</b>，AI 负责样板代码与文档加速——对话与迭代记录完整可查。</div>
+      <div class="self-eval"><b>自我定位：懂技术、能改进技术的技术使用者与开发者</b>——把成熟方法用进真实场景、把重复劳动沉淀为工具，不做脱离落地的顶层研究。生物技术专业本科在读，能衔接<b>实验执行 → 数据整理 → 生物信息学分析 → 工程化交付</b>的完整链路；已在 IJMS 论文中承担 Software 与 Data curation 贡献，开发 Bio SDK 与 Agent 编排两条开源主线，持续训练与部署视觉模型。开发全程与 AI 结对协作：<b>方法选型、结果判断与质量把关由本人完成</b>，AI 负责样板代码与文档加速——对话与迭代记录完整可查。</div>
     </div>
 
     <div class="section">
