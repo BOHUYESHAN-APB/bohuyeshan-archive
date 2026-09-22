@@ -73,7 +73,7 @@ description: 韩涛（Tao Han）简历中每个项目的详情页：做什么、
 <div class="p-tagline">主线维护 · TypeScript / Bun</div>
 <div class="p-row"><b class="k">做什么：</b>给 OpenCode CLI 增加面向科研分析场景的编排与治理层。</div>
 <div class="p-row"><b class="k">解决什么问题：</b>AI agent 直接跑数据分析时存在三类风险：权限失控（误删/越界读写）、长流程中断后无法续跑、多步分析没有检查点导致结果不可追溯。这个插件把三者工程化。</div>
-<div class="p-row"><b class="k">怎么做的：</b>权限分层、计划执行、续跑/审查、会话检查点、MCP 协议接入；19 个自研 Agent 定义覆盖生信分析场景；按需索引 OpenCode 生态 617 个生信技能（88 类）。</div>
+<div class="p-row"><b class="k">怎么做的：</b>权限分层、计划执行、续跑/审查、会话检查点、MCP 协议接入；19 个自研 Agent 定义覆盖生信分析场景；按需索引 OpenCode 生态 617 个生信技能（87 类）。</div>
 <div class="p-links"><a href="https://github.com/BOHUYESHAN-APB/openagent-labforge-bio" target="_blank">GitHub ↗</a></div>
 </div>
 

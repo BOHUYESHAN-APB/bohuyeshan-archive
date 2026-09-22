@@ -471,7 +471,7 @@ DOI: <a href="https://doi.org/10.3390/ijms27135740" style="color:#2563eb;">10.33
 </div>
 <div class="r-project-card">
 <h4><a href="https://github.com/BOHUYESHAN-APB/openagent-labforge-bio">openagent-labforge-bio</a> <span class="r-badge">主线</span></h4>
-<div class="r-desc">OpenCode 科研编排插件：权限分层、计划执行、续跑/审查、会话检查点与 MCP；19 个自研 Agent 定义，按需索引 OpenCode 生态 617 个生信技能（88 类）。</div>
+<div class="r-desc">OpenCode 科研编排插件：权限分层、计划执行、续跑/审查、会话检查点与 MCP；19 个自研 Agent 定义，按需索引 OpenCode 生态 617 个生信技能（87 类）。</div>
 <div class="r-links"><a href="https://github.com/BOHUYESHAN-APB/openagent-labforge-bio" target="_blank">GitHub</a></div>
 <span class="r-lang">TypeScript / Bun</span>
 </div>
