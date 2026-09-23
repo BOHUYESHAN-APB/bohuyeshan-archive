@@ -49,7 +49,7 @@
   }
 
   /* ---- Hero ---- */
-  .hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 8mm; padding-bottom: 3mm; border-bottom: 0.35mm solid #1e3a8a; margin-bottom: 2.5mm; flex-shrink: 0; }
+  .hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 8mm; padding-bottom: 3mm; border-bottom: 0.35mm solid #1e3a8a; margin-bottom: 2.2mm; flex-shrink: 0; }
   .hero-left { flex: 1 1 auto; min-width: 0; }
   .hero-left h1 { font-family: 'Noto Serif SC','Songti SC','SimSun',serif; font-size: 21pt; font-weight: 700; color: #101a33; letter-spacing: 0.5px; line-height: 1.15; }
   .hero-left .tagline { font-size: 8.6pt; color: #1e3a8a; font-weight: 600; letter-spacing: 0.05em; margin-top: 1mm; }
@@ -60,6 +60,7 @@
 
   /* ---- Section ---- */
   .section { margin-bottom: 2.6mm; }
+  .a4-page:not(.a4-page + .a4-page) .section { margin-bottom: 1.5mm; }
   .section:last-child { margin-bottom: 0; }
   .section-label { display: flex; align-items: center; gap: 2.5mm; margin-bottom: 2.6mm; }
   .section-label .en { font-size: 6.8pt; letter-spacing: 0.22em; color: #9aa3b5; font-weight: 600; text-transform: uppercase; }
@@ -245,7 +246,7 @@ function exportPDF() {
         </div>
         <div class="cap-card">
           <div class="cap-title"><span class="dot"></span>AI 模型训练与部署</div>
-          <div class="cap-text">PP-YOLOE+、YOLOv5/v8 训练微调与 <b>ONNX 边缘部署</b>；树莓派 5 同机对比 NCNN 307ms vs ONNX 561ms；比较多种学习率策略；<b>昇腾迁移 ×3 项目</b>（OpenI · CANN 7 · MindSpore）——荞麦检测与菌落识别自 Paddle/CUDA 迁往 Ascend NPU（迁移脚手架、算法支持矩阵、YOLO11 离线容器适配），自研 LLM 于 910 完成训练闭环：定位并修复静态图约束问题（construct 动态控制流改造）。</div>
+          <div class="cap-text">PP-YOLOE+、YOLOv5/v8 训练微调与 <b>ONNX 边缘部署</b>；树莓派 5 同机对比 NCNN 307ms vs ONNX 561ms；比较多种学习率策略；<b>昇腾迁移 ×3 项目</b>（OpenI · CANN 7 · MindSpore）——荞麦检测与菌落识别自 Paddle/CUDA 迁往 Ascend NPU（迁移脚手架、算法支持矩阵），自研 LLM 于 910 完成训练闭环：定位并修复 MindSpore 静态图约束问题。</div>
           <div class="cap-tags"><span class="cap-tag">Fine-tuning</span><span class="cap-tag">模型量化</span><span class="cap-tag">PaddlePaddle</span><span class="cap-tag">PyTorch</span><span class="cap-tag">ONNX</span><span class="cap-tag">NCNN</span><span class="cap-tag">CUDA</span><span class="cap-tag">MindSpore</span></div>
         </div>
         <div class="cap-card cap-wide">
