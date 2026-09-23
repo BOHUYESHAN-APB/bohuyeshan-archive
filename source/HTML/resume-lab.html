@@ -56,6 +56,7 @@
   .hero-left .edu-line { font-size: 8pt; color: #4a5468; font-weight: 500; margin-top: 0.8mm; }
   .hero-right { text-align: right; font-size: 7.6pt; color: #4a5468; line-height: 1.65; flex-shrink: 0; white-space: nowrap; background: #f2faf4; border: 0.25mm solid #dcebe1; border-radius: 1.2mm; padding: 1.5mm 2.2mm; }
   .hero-right b { color: #14532d; }
+  .photo-slot { width: 25mm; height: 35mm; border: 0.35mm solid #bcd4c4; border-radius: 1.2mm; background: #f7faf8; align-self: flex-start; flex-shrink: 0; }
 
   /* ---- Section ---- */
   .section { margin-bottom: 2.5mm; }
@@ -198,6 +199,7 @@ function exportPDF() {
         <b>GitHub</b> BOHUYESHAN-APB · <b>博客</b> bohuyeshan.top<br>
         <b>地点</b> 昆明优先，其他省会可考虑 · <b>到岗</b> 面试通过且毕业后两周内
       </div>
+      <div class="photo-slot" aria-label="证件照粘贴处"></div>
     </div>
 
     <div class="section">
@@ -283,26 +285,6 @@ function exportPDF() {
       </div>
     </div>
 
-    <div class="section">
-      <div class="section-label"><span class="zh">竞赛 · 核验</span><span class="en">MORE</span></div>
-      <div class="mini-grid">
-        <div class="mini-col">
-          <div class="mini-title">竞赛与项目立项</div>
-          <div class="mini-item"><b>荞麦种子质量检测</b> · AI 赛道主持 · 省级立项</div>
-          <div class="mini-item"><b>"挑战杯"</b> · 负责人 · 省级立项</div>
-          <div class="mini-item"><b>大创训练项目</b> · 省级立项 · 中期检查优秀</div>
-          <div class="mini-item"><b>创新创业挑战</b> · 院系资助 · 优秀结题</div>
-        </div>
-        <div class="mini-col">
-          <div class="mini-title">核验入口</div>
-          <div class="mini-item"><b>项目档案 · 逐项核验</b> · bohuyeshan.top/resume/projects</div>
-          <div class="mini-item"><b>GitHub</b> · github.com/BOHUYESHAN-APB</div>
-          <div class="mini-item"><b>博客</b> · bohuyeshan.top</div>
-          <div class="mini-item"><b>ORCID</b> · 0009-0002-8426-0610</div>
-        </div>
-      </div>
-    </div>
-
     <div class="page-footer"><span>韩涛 · 简历</span><span>1 / 2</span></div>
   </div>
 
@@ -346,7 +328,12 @@ function exportPDF() {
     </div>
 
     <div class="section">
-      <div class="section-label"><span class="zh">检测方法与仪器</span><span class="en">METHODS &amp; INSTRUMENTS</span></div>
+      <div class="section-label"><span class="zh">掌握的方法与仪器</span><span class="en">METHODS &amp; INSTRUMENTS</span></div>
+      <div class="method-sub">掌握的仪器（按 SOP 独立操作并规范记录）</div>
+      <div class="method-grid">
+        <div class="method-item"><b>无菌与培养</b>高压蒸汽灭菌器、超净工作台、恒温培养箱。</div>
+        <div class="method-item"><b>检测与量化</b>荧光定量 PCR 仪（上机操作）、毛细管电泳仪、平板成像系统。</div>
+      </div>
       <div class="method-sub">核酸分析</div>
       <div class="method-grid">
         <div class="method-item"><b>RNA 提取</b>植物组织总 RNA 提取与质检。</div>
@@ -392,8 +379,28 @@ function exportPDF() {
     </div>
 
     <div class="section">
+      <div class="section-label"><span class="zh">竞赛 · 核验</span><span class="en">MORE</span></div>
+      <div class="mini-grid">
+        <div class="mini-col">
+          <div class="mini-title">竞赛与项目立项</div>
+          <div class="mini-item"><b>荞麦种子质量检测</b> · AI 赛道主持 · 省级立项</div>
+          <div class="mini-item"><b>"挑战杯"</b> · 负责人 · 省级立项</div>
+          <div class="mini-item"><b>大创训练项目</b> · 省级立项 · 中期检查优秀</div>
+          <div class="mini-item"><b>创新创业挑战</b> · 院系资助 · 优秀结题</div>
+        </div>
+        <div class="mini-col">
+          <div class="mini-title">核验入口</div>
+          <div class="mini-item"><b>项目档案 · 逐项核验</b> · bohuyeshan.top/resume/projects</div>
+          <div class="mini-item"><b>GitHub</b> · github.com/BOHUYESHAN-APB</div>
+          <div class="mini-item"><b>博客</b> · bohuyeshan.top</div>
+          <div class="mini-item"><b>ORCID</b> · 0009-0002-8426-0610</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
       <div class="section-label"><span class="zh">自我评价</span><span class="en">SUMMARY</span></div>
-      <div class="self-eval"><b>自我定位：懂实验、能改进流程的技术使用者</b>——从 SOP 执行到把重复检测沉淀为工具与自动化，不做脱离一线的空转研究。生物技术专业本科在读。三个课题（<b>微生物、油菜、荞麦</b>）均从实验设计与 SOP 执行做起，覆盖微生物培养鉴定、植物分子实验与组学数据分析；实验记录按 SOP 留存、关键步骤可追溯；具备把重复检测环节沉淀为工具的经验，<b>发明专利第一发明人</b>。了解 GMP/GLP 对检验记录与数据完整性的基本要求。期望在昆明规范化团队中长期发展。</div>
+      <div class="self-eval"><b>自我定位：懂实验、能改进流程的技术使用者</b>——从 SOP 执行到把重复检测沉淀为工具与自动化，不做脱离一线的空转研究。生物技术专业本科在读。三个课题（<b>微生物、油菜、荞麦</b>）均从实验设计与 SOP 执行做起，覆盖微生物培养鉴定、植物分子实验与组学数据分析；实验记录按 SOP 留存、关键步骤可追溯；已把重复检测环节沉淀为工具并获发明专利受理（<b>第一发明人</b>）。了解 GMP/GLP 对检验记录与数据完整性的基本要求。期望在昆明规范化团队中长期发展。</div>
     </div>
 
     <div class="page-footer"><span>韩涛 · 简历</span><span>2 / 2</span></div>

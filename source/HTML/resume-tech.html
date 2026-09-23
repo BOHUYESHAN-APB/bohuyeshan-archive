@@ -49,13 +49,14 @@
   }
 
   /* ---- Hero ---- */
-  .hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 8mm; padding-bottom: 3mm; border-bottom: 0.35mm solid #1e3a8a; margin-bottom: 4mm; flex-shrink: 0; }
+  .hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 8mm; padding-bottom: 3mm; border-bottom: 0.35mm solid #1e3a8a; margin-bottom: 2.5mm; flex-shrink: 0; }
   .hero-left { flex: 1 1 auto; min-width: 0; }
   .hero-left h1 { font-family: 'Noto Serif SC','Songti SC','SimSun',serif; font-size: 21pt; font-weight: 700; color: #101a33; letter-spacing: 0.5px; line-height: 1.15; }
   .hero-left .tagline { font-size: 8.6pt; color: #1e3a8a; font-weight: 600; letter-spacing: 0.05em; margin-top: 1mm; }
   .hero-left .edu-line { font-size: 8pt; color: #4a5468; font-weight: 500; margin-top: 0.8mm; }
   .hero-right { text-align: right; font-size: 7.6pt; color: #4a5468; line-height: 1.65; flex-shrink: 0; white-space: nowrap; background: #f4f7fd; border: 0.25mm solid #e2e7f0; border-radius: 1.2mm; padding: 1.5mm 2.2mm; }
   .hero-right b { color: #1e3a8a; }
+  .photo-slot { width: 25mm; height: 35mm; border: 0.35mm solid #c3cde8; border-radius: 1.2mm; background: #f8f9fd; align-self: flex-start; flex-shrink: 0; }
 
   /* ---- Section ---- */
   .section { margin-bottom: 2.6mm; }
@@ -204,6 +205,7 @@ function exportPDF() {
         <b>GitHub</b> BOHUYESHAN-APB · <b>博客</b> bohuyeshan.top<br>
         <b>地点</b> 昆明优先，其他省会可考虑 · <b>到岗</b> 面试通过且毕业后两周内
       </div>
+      <div class="photo-slot" aria-label="证件照粘贴处"></div>
     </div>
 
     <div class="section">
@@ -213,7 +215,7 @@ function exportPDF() {
           <div class="asset-tag">开源 · AI Agent 工程</div>
           <div class="asset-title">openagent-labforge-bio</div>
           <div class="asset-sub">OpenCode 科研编排插件</div>
-          <div class="asset-desc">权限分层、计划执行、会话检查点与 MCP；19 个自研 Agent 定义覆盖生信分析场景</div>
+          <div class="asset-desc">权限分层、计划执行、会话检查点与 MCP；19 个自研 Agent（8 主编排 + 11 专家）· 617 个生信 skills（87 类）</div>
           <div class="asset-proof"><b>能力证明：</b>Agent 工程方法 × 生信领域知识的交叉落地， AI 协作流程工程化</div>
         </div>
         <div class="asset-card">
@@ -227,7 +229,7 @@ function exportPDF() {
           <div class="asset-tag">开源 · 生信平台</div>
           <div class="asset-title">Linxira Bio SDK</div>
           <div class="asset-sub">本地优先生物信息学分析平台</div>
-          <div class="asset-desc">Rust 原生引擎 + GUI/CLI + agent skills · 112 个分析能力 · AGPL-3.0 开源</div>
+          <div class="asset-desc">Rust 原生引擎 + GUI/CLI + agent skills · 112 个分析能力 · AGPL-3.0 开源；可复现性基准公开：<b>salmon TPM r=1.000000</b>（linxira-os.github.io 官方博客）</div>
           <div class="asset-proof"><b>能力证明：</b>系统级代码工程：Rust 引擎、CLI 工具链、Linux 打包与开源仓库全链路运维</div>
         </div>
       </div>
@@ -311,12 +313,12 @@ function exportPDF() {
       <div class="proj-grid">
         <div class="proj-card main">
           <div class="proj-head"><span class="proj-name">openagent-labforge-bio</span><span class="proj-badge">主线</span></div>
-          <div class="proj-desc">OpenCode 科研编排插件：权限分层、计划执行、会话检查点与 MCP；19 个自研 Agent 定义覆盖生信分析场景。</div>
+          <div class="proj-desc">OpenCode 科研编排插件：权限分层、计划执行、会话检查点与 MCP；19 个自研 Agent（8 主编排 + 11 专家）· 617 个生信 skills（87 类）。</div>
           <div class="proj-lang">TypeScript / Bun</div>
         </div>
         <div class="proj-card">
           <div class="proj-head"><span class="proj-name">Linxira Bio SDK</span></div>
-          <div class="proj-desc">本地优先生信分析平台：Rust 原生引擎 + GUI/CLI + agent skills；112 个分析能力、AGPL-3.0 开源。</div>
+          <div class="proj-desc">本地优先生信分析平台：Rust 原生引擎 + GUI/CLI + agent skills；112 个分析能力、AGPL-3.0 开源；可复现性基准公开（salmon TPM r=1.000000，linxira-os.github.io）。</div>
           <div class="proj-lang">Rust · Python · R · Java</div>
         </div>
         <div class="proj-card">
